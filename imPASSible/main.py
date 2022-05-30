@@ -29,7 +29,7 @@ class Ui_MainWindow(object):
 
         #Generated password
         self.linePassword = QtWidgets.QLineEdit(self.centralwidget)
-        self.linePassword.setGeometry(QtCore.QRect(50, 150, 700, 25))
+        self.linePassword.setGeometry(QtCore.QRect(50, 150, 700, 40))
         self.linePassword.setFont(font)
         self.linePassword.setFrame(True)
         self.linePassword.setReadOnly(True)
@@ -37,12 +37,12 @@ class Ui_MainWindow(object):
 
         #Generate button
         self.buttonGenerate = QtWidgets.QPushButton(self.centralwidget)
-        self.buttonGenerate.setGeometry(QtCore.QRect(200, 200, 200, 25))
+        self.buttonGenerate.setGeometry(QtCore.QRect(200, 200, 200, 40))
         font.setPointSize(11)
         self.buttonGenerate.setFont(font)
 
         self.buttonCopy = QtWidgets.QPushButton(self.centralwidget)
-        self.buttonCopy.setGeometry(QtCore.QRect(400, 200, 200, 25))
+        self.buttonCopy.setGeometry(QtCore.QRect(400, 200, 200, 40))
         self.buttonCopy.setFont(font)
 
         #Credit
