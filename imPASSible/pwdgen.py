@@ -1,3 +1,5 @@
+# Shout-out to https://github.com/everdrone/genpasswd2
+
 import string
 import random
 from textwrap import wrap
